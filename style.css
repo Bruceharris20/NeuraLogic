@@ -119,13 +119,10 @@ body {
   align-items: center;
   padding: 4rem 0;
   min-height: 70vh;
-  position: relative;
 }
 
 .hero-content {
   animation: fadeInUp 1s ease-out;
-  z-index: 2;
-  position: relative;
 }
 
 .hero-title {
@@ -192,30 +189,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative;
   animation: fadeInRight 1s ease-out 0.3s both;
-}
-
-.ai-robot-container {
-  position: absolute;
-  top: -50px;
-  right: -30px;
-  z-index: 3;
-  animation: float 8s ease-in-out infinite;
-}
-
-.ai-robot-image {
-  width: 280px;
-  height: auto;
-  opacity: 0.85;
-  filter: drop-shadow(0 10px 30px rgba(6, 182, 212, 0.3));
-  transition: all 0.3s ease;
-}
-
-.ai-robot-image:hover {
-  opacity: 1;
-  transform: scale(1.05);
-  filter: drop-shadow(0 15px 40px rgba(6, 182, 212, 0.5));
 }
 
 .ai-graphic {
@@ -223,7 +197,6 @@ body {
   width: 300px;
   height: 300px;
   animation: float 6s ease-in-out infinite;
-  z-index: 1;
 }
 
 .neural-node {
@@ -424,17 +397,6 @@ body {
   .ai-graphic {
     width: 200px;
     height: 200px;
-  }
-  
-  .ai-robot-container {
-    position: relative;
-    top: 0;
-    right: 0;
-    margin-bottom: 2rem;
-  }
-  
-  .ai-robot-image {
-    width: 200px;
   }
   
   .neural-node {

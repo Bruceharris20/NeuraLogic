@@ -32,9 +32,6 @@ document.querySelector('#app').innerHTML = `
           </div>
         </div>
         <div class="hero-visual">
-          <div class="ai-robot-container">
-            <img src="/public/image (1).png" alt="AI Robot" class="ai-robot-image" />
-          </div>
           <div class="ai-graphic">
             <div class="neural-node"></div>
             <div class="neural-node"></div>
