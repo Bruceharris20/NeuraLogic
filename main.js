@@ -47,7 +47,7 @@ document.querySelector('#app').innerHTML = `
         <div class="services-grid">
           <div class="service-card">
             <div class="service-icon">🧠</div>
-            <h4>Machine Learning</h4>
+            <h4>Churn Predictions</h4>
             <p>Custom ML models tailored to your specific business needs and data patterns.</p>
           </div>
           <div class="service-card">
@@ -64,6 +64,11 @@ document.querySelector('#app').innerHTML = `
             <div class="service-icon">📊</div>
             <h4>Predictive Analytics</h4>
             <p>Data-driven insights and forecasting to optimize your business decisions.</p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">🔍</div>
+            <h4>Understanding Pain Points</h4>
+            <p>Identify bottlenecks, uncover inefficiencies, pinpoint opportunities, and tailor solutions to directly resolve your organization's unique challenges.</p>
           </div>
         </div>
       </section>
