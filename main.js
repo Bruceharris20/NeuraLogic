@@ -3,17 +3,22 @@ import './style.css'
 document.querySelector('#app').innerHTML = `
   <div class="container">
     <header class="header">
-      <div class="nav">
+      <nav class="nav">
         <div class="logo">
           <h1>NeuraLogic</h1>
         </div>
-        <nav class="navigation">
-          <a href="#home">Home</a>
-          <a href="#services">Services</a>
+        <div class="navigation">
+          <a href="#solutions">Solutions</a>
+          <a href="#industries">Industries</a>
+          <a href="#use-cases">Use Cases</a>
+          <a href="#pricing">Pricing</a>
+          <a href="#resources">Resources</a>
           <a href="#about">About</a>
           <a href="#contact">Contact</a>
-        </nav>
-      </div>
+          <a href="#search" class="search-icon">🔍</a>
+        </div>
+        <button class="mobile-menu">☰</button>
+      </nav>
     </header>
 
     <main class="main">
